@@ -176,7 +176,7 @@ spec:
                           arguments:
                             parameters:
                               - name: repo-name
-                                value: "https://{{workflow.parameters.repobaseurl}}/giteaAdmin/idpbuilder-localdev-shared-helm-charts"
+                                value: "https://{{workflow.parameters.repobaseurl}}/giteaAdmin/idpbuilder-localdev-shared-helm-charts-entities"
                               - name: target-dir
                                 value: shared-repo
                               - name: service-name

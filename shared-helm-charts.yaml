@@ -8,7 +8,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: cnoe://shared-helm-charts/
+    repoURL: cnoe://shared-helm-charts/entities
     targetRevision: HEAD
     path: "."
   destination:
