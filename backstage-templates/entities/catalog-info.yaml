@@ -6,4 +6,4 @@ metadata:
 spec:
   targets:
     - ./basic/template.yaml
-    - ./ci-cd/template-wip.yaml
+    - ./ci-cd/template.yaml
