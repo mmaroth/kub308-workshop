@@ -23,16 +23,7 @@ spec:
           type: string
           title: Cost Center
           default: C0001
-          description: Provide CostCenter ID for costing
-        tier:
-          type: string
-          title: Service Tier
-          default: 'Tier-0'
-          enum:
-            - 'Tier-0'
-            - 'Tier-1'
-            - 'Tier-2'
-            - 'Tier-3'
+          description: Provide CostCenter ID for finance management
         language:
           title: Language
           type: string

@@ -1,19 +1,19 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: argo-events
+  name: backstage
   namespace: argocd
   labels:
     env: dev
 spec:
   project: default
   source:
-    repoURL: https://argoproj.github.io/argo-helm
-    targetRevision: 2.4.8
-    chart: argo-events
+    repoURL: cnoe://backstage/manifests
+    targetRevision: HEAD
+    path: "."
   destination:
     server: "https://kubernetes.default.svc"
-    namespace: argo-events
+    namespace: backstage
   syncPolicy:
     syncOptions:
       - CreateNamespace=true
